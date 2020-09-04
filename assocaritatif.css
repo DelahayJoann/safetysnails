@@ -1,0 +1,126 @@
+nav,div,p,img {
+    border: 1px solid red;
+}
+
+body{
+    background-color: #2F303A;
+    width: 90%;
+    margin: 0px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+article{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+section{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+#menu{
+    background-color: #967E72;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 90px;
+}
+#logo{
+    width: 250px;
+    height: 50px;
+    background-image: url(./img/snail-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto 0px;
+}
+#equipe{
+    width: 150px;
+    height: 50px;
+    display: table;
+    margin: auto 0px;
+    background-color: rgba(117, 95, 86, 0.5);
+    border-radius: 15px;
+}
+#equipe > div{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#news{
+    width: 150px;
+    height: 50px;
+    display: table;
+    margin: auto 0px;
+    background-color: rgba(117, 95, 86, 0.5);
+    border-radius: 15px;
+}
+#news > div{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#partenaires{
+    width: 150px;
+    height: 50px;
+    display: table;
+    margin: auto 0px;
+    background-color: rgba(117, 95, 86, 0.5);
+    border-radius: 15px;
+}
+#partenaires > div{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#logoreseauxsociaux{
+    width: 330px;
+    height: 50px;
+    background-image: url(./img/réseaux-sociaux-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: auto 0px;
+}
+#preface{
+    width: 100%;
+    height: 500px;
+    color: white;
+    position: relative;
+    background-color: ;
+}
+#preface > div{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+#preface > div > h1{
+    width: 500px;
+    font-size: 32px;
+}
+#preface > div > p{
+    width: 300px;
+}
+#preface > img{
+    object-fit: fill;
+    filter: opacity(0.7);
+    width: 100%;
+    height: 100%;
+}
+#mission-plusdon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#mission{
+    width: 50%;
+    height: 450px;
+    background: linear-gradient(rgba(166, 126, 126, 0.8), rgba(166, 126, 126, 0.9)), url("./img/mission.jpg");
+    background-size: cover;
+}
+#plusdon{
+    width: 50%;
+    height: 450px;
+    background: linear-gradient(rgba(166, 126, 126, 0.8), rgba(202, 145, 103, 0.9)), url("./img/plusdon.jpg");
+    background-size: cover;
+}
