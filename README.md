@@ -18,4 +18,4 @@ Currently done:
 
 ## __Deployment link__
 
-[https://delahayjoann.github.io/safetysnails/](Safety Snails){:target="_blank"}
+<a href="https://delahayjoann.github.io/safetysnails/" target="_blank" alt="">https://delahayjoann.github.io/safetysnails/</a>
