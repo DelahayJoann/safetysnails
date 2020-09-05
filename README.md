@@ -8,3 +8,14 @@ A website for a fictitious association developed as part of the BeCode training.
   <p><strong>made on Figma</strong></p>
   <img src="https://cdn.discordapp.com/attachments/745527718048694292/751416473947340841/unknown.png">
 </details>
+
+##__Development__
+
+Currently done:
+[X] Mock-up
+[X] HTML structure
+[]  CSS __<---- Pending__
+
+## __deployment link
+
+[https://delahayjoann.github.io/safetysnails/]()
