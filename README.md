@@ -14,8 +14,8 @@ A website for a fictitious association developed as part of the BeCode training.
 Currently done:
 - [X] Mock-up
 - [X] HTML structure
-- []  CSS __<---- Pending__
+- [ ]  CSS __<---- Pending__
 
-## __deployment link
+## __Deployment link__
 
-[https://delahayjoann.github.io/safetysnails/]()
+<a href="https://delahayjoann.github.io/safetysnails/" alt="">Safety Snails</a>
