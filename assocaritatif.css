@@ -45,10 +45,14 @@ section{
     background-color: rgba(117, 95, 86, 0.5);
     border-radius: 15px;
 }
-#equipe > div{
+#equipe > a{
+    width: 100%;
+    height: 100%;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 #news{
     width: 150px;
@@ -58,10 +62,14 @@ section{
     background-color: rgba(117, 95, 86, 0.5);
     border-radius: 15px;
 }
-#news > div{
+#news > a{
+    width: 100%;
+    height: 100%;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 #partenaires{
     width: 150px;
@@ -71,10 +79,14 @@ section{
     background-color: rgba(117, 95, 86, 0.5);
     border-radius: 15px;
 }
-#partenaires > div{
+#partenaires > a{
+    width: 100%;
+    height: 100%;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 #logoreseauxsociaux{
     width: 330px;
@@ -120,12 +132,60 @@ section{
     height: 450px;
     background: linear-gradient(rgba(166, 126, 126, 0.8), rgba(166, 126, 126, 0.9)), url("./img/mission.jpg");
     background-size: cover;
+    color: white;
+}
+#mission > h1{
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+}
+#mission > p{
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+}
+#mission > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    line-height: 32px;
+    width: 150px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 7px;
 }
 #plusdon{
     width: 50%;
     height: 450px;
     background: linear-gradient(rgba(166, 126, 126, 0.8), rgba(202, 145, 103, 0.9)), url("./img/plusdon.jpg");
     background-size: cover;
+    color: white;
+}
+#plusdon > h1{
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+}
+#plusdon > p{
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+}
+#plusdon > a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    line-height: 32px;
+    width: 150px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 7px;
 }
 #wildcards{
     width: 100%;
@@ -180,4 +240,34 @@ section{
 }
 #wildcards > div:nth-child(odd){
     bottom: +50px;
+}
+
+#autresassociations{
+    background-color: #805F5F;
+}
+#autreslogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+}
+#autresassociations > h1{
+    margin: 0px auto;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+.assologo{
+    width: 120px;
+    height: 120px;
+}
+.assologo > a > img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    height: 100px;
 }
