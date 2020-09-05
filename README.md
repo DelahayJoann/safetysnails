@@ -9,7 +9,7 @@ A website for a fictitious association developed as part of the BeCode training.
   <img src="https://cdn.discordapp.com/attachments/745527718048694292/751416473947340841/unknown.png">
 </details>
 
-##__Development__
+## __Development__
 
 Currently done:
 - [X] Mock-up
