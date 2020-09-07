@@ -2,6 +2,8 @@
     border: 1px solid red;
 }*/
 
+@import "popup.css";
+
 body{
     background-color: #2F303A;
     width: 90%;
@@ -15,6 +17,15 @@ article{
     margin: 0px;
     padding: 0px;
     width: 100%;
+}
+#MainTitle{
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 20px 0px;
 }
 section{
     margin: 0px;
@@ -125,7 +136,7 @@ section{
     left: 5%;
     top: 20%;
 }
-#preface > div > h1{
+#preface > div > h2{
     width: 500px;
     font-size: 32px;
 }
@@ -150,7 +161,7 @@ section{
     background-size: cover;
     color: white;
 }
-#mission > h1{
+#mission > h2{
     width: 100%;
     font-size: 36px;
     text-align: center;
@@ -160,6 +171,11 @@ section{
     width: 80%;
     text-align: center;
     margin: 0px auto;
+}
+#mission > p > span{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
 }
 #mission > a{
     display: block;
@@ -173,6 +189,12 @@ section{
     margin: 30px auto;
     padding: 7px;
 }
+#missionYT{
+    position: fixed;
+    left: calc(50% - 210px);
+    top: calc(50% - 157.5px);
+    z-index: 2;
+}
 #plusdon{
     width: 50%;
     height: 450px;
@@ -180,7 +202,7 @@ section{
     background-size: cover;
     color: white;
 }
-#plusdon > h1{
+#plusdon > h2{
     width: 100%;
     font-size: 36px;
     text-align: center;
@@ -190,6 +212,11 @@ section{
     width: 80%;
     text-align: center;
     margin: 0px auto;
+}
+#plusdon > p > span{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
 }
 #plusdon > a{
     display: block;
@@ -268,7 +295,7 @@ section{
     width: 100%;
     padding: 50px 0px 50px 0px;
 }
-#autresassociations > h1{
+#autresassociations > h2{
     margin: 0px auto;
     padding: 20px 0px 0px 0px;
     text-align: center;
@@ -284,6 +311,27 @@ section{
     width: 100%;
     height: 100%;
 }
-footer{
+footer > a{
+    text-decoration: none;
+}
+#divfooter{
+    background-color: black;
+    color: white;
+    width: 100%;
     height: 100px;
+}
+#divfooter > q{
+    display: block;
+    width: 100%;
+    line-height: 32px;
+    padding-top: 25px;
+    text-align: center;
+}
+#divfooter > span{
+    display: block;
+    float: right;
+    margin-right: 5%;
+    line-height: 32px;
+    font-weight: bold;
+    font-style: italic;
 }

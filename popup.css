@@ -1,0 +1,51 @@
+ /* Popup container */
+.popup {
+  position: fixed;
+  right: 5%;
+  top: 0px;
+  display: block;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-image: url(./img/yt.png);
+  background-size: cover;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  position: fixed;
+    left: calc(50% - 210px);
+    top: calc(50% - 157.5px);
+    z-index: 2;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+} 
