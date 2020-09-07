@@ -14,7 +14,7 @@ A website for a fictitious association developed as part of the BeCode training.
 Currently done:
 - [X] Mock-up
 - [X] HTML structure
-- [ ]  CSS __<---- Pending__
+- [X] CSS
 
 ## __Deployment link__
 
