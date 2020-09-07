@@ -31,8 +31,8 @@ Currently done:
 
 ## Validation W3C HTML
 
-[Lien vers la validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdelahayjoann.github.io%2Fsafetysnails%2Findex.html)
+<a href="https://delahayjoann.github.io/safetysnails/" target="_blank" alt="">Lien vers la validation</a>
 
 ## __Deployment link__
 
-<a href="https://delahayjoann.github.io/safetysnails/" target="_blank" alt="">https://delahayjoann.github.io/safetysnails/</a>
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fdelahayjoann.github.io%2Fsafetysnails%2Findex.html" target="_blank" alt="">https://delahayjoann.github.io/safetysnails/</a>
