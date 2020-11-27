@@ -1,0 +1,96 @@
+img {
+  object-fit: cover;
+}
+
+#mission {
+  width: 50%;
+  height: 450px;
+  background: linear-gradient(rgba(166, 126, 126, 0.8), rgba(166, 126, 126, 0.9)), url("../img/mission.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#mission > h2 {
+  width: 100%;
+  font-size: 36px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#mission > p {
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+#mission > p > span {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#mission > a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  line-height: 32px;
+  width: 150px;
+  text-align: center;
+  margin: 30px auto;
+  padding: 7px;
+}
+
+#missionYT {
+  position: fixed;
+  left: calc(50% - 210px);
+  top: calc(50% - 157.5px);
+  z-index: 2;
+}
+
+#plusdon {
+  width: 50%;
+  height: 450px;
+  background: linear-gradient(rgba(166, 126, 126, 0.8), rgba(202, 145, 103, 0.9)), url("../img/plusdon.jpg");
+  background-size: cover;
+  color: white;
+}
+
+#plusdon > h2 {
+  width: 100%;
+  font-size: 36px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+#plusdon > p {
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+#plusdon > p > span {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#plusdon > a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  line-height: 32px;
+  width: 150px;
+  text-align: center;
+  margin: 30px auto;
+  padding: 7px;
+}
+
+.assologo {
+  height: 120px;
+}
+
+/*# sourceMappingURL=style.css.map */
