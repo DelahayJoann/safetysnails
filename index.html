@@ -3,38 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" media="screen" type="text/css" title="css Safety Snails" href="assocaritatif.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css" rel="stylesheet">
+        <link rel="stylesheet" media="screen" type="text/css" title="css Safety Snails" href="assets/css/style.css"/>
         <title>Safety Snails</title>
     </head>
-    <body>
-        <header>
-            <nav id="menu">
-                <div id="logo"></div>
-                <div id="equipe"><a href="#">L'équipe</a></div>
-                <div id="news"><a href="#">News</a></div>
-                <div id="partenaires"><a href="#">Partenaires</a></div>
-                <div id="logoreseauxsociaux"><a href="#"></a></div>
+    <body class="container-fluid">
+        <header class="row">
+            <nav id="menu" class="col-12 row">
+                <div id="logo" class="col-12"></div>
+                <div id="equipe" class="col-12"><a href="#">L'équipe</a></div>
+                <div id="news" class="col-12"><a href="#">News</a></div>
+                <div id="partenaires" class="col-12"><a href="#">Partenaires</a></div>
+                <div id="logoreseauxsociaux" class="col-12"><a href="#"></a></div>
             </nav>
         </header>
     <!--  ======== MAIN ========  -->
         <main>
-            <a href="#" id="fairedonfixe">Faire un don</a>
-            <article>
-                <h1 id="MainTitle">Safety Snails</h1>
+            <!-- <a href="#" id="fairedonfixe">Faire un don</a> -->
+            <div class="container-fluid">
+                <h1 id="MainTitle" class="row">Safety Snails</h1>
     <!--  ======== PREFACE ========  -->
-                <section id="preface">
-                    <img src="./img/preface.jpeg" alt="">
-                    <div>
-                        <h2>LOREM IPSUM DOLOR</h2>
-                        <p>
+                <section id="preface" class="row">
+                    <div class="col-12" style="background-image: url(./img/preface.jpeg); background-size: cover;">
+                        <h2 class="col-12">LOREM IPSUM DOLOR</h2>
+                        <p class="col-12">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                             Phasellus nec aliquet metus. Vivamus imperdiet ex sed interdum rhoncus.
                         </p>
                     </div>
                 </section>
     <!--  ======== MISSION et PLUSDON ========  -->
-                <section id="mission-plusdon">
-                    <div id="mission">
+                <section id="mission-plusdon" class="row">
+                    <div id="mission" class="col-12">
                         <h2>Notre mission</h2>
                         <p>
                             Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit</span>. 
@@ -46,11 +47,11 @@
                         </p>
                         <a href="#">En savoir plus</a>
                     </div>
-                        <div class="popup" onclick="myFunction()">
+                        <!-- <div class="popup" onclick="myFunction()">
                             <video width="420" height="315" controls class="popuptext" id="myPopup" src="https://redirector.googlevideo.com/videoplayback?expire=1599491867&ei=u_pVX86rDsaFkwbgmZqgBA&ip=168.235.107.254&id=o-AKGEtdeGuMws9nusQQbOgg4m5iYjByuZyh7Gb7icsKjv&itag=22&source=youtube&requiressl=yes&mh=jk&mm=31%2C29&mn=sn-a5meknsd%2Csn-a5mlrnel&ms=au%2Crdu&mv=m&mvi=5&pl=22&initcwndbps=330000&vprv=1&mime=video%2Fmp4&ratebypass=yes&dur=343.376&lmt=1506360287094818&mt=1599470217&fvip=5&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgam1-Dd7b3HteVIhUCxqQB_hugSKfnKqdbw6kwAmTQW8CIQD2Gm5OGDdXz9RvMZTD6-X_IXW6bqyiFG55jCnbYy82Tw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAJiPh99W7VuqOX_0xBDymzd2dJKvWJx97f0v5jMb5qUIAiAhKMnLEXDr2mw85R4fBKZKKPCOf4-2h-QYoYAoxMvHUg%3D%3D&title=Spiral+%7C+WILDxRED"></video> 
-                        </div>
+                        </div> -->
 
-                    <div id="plusdon">
+                    <div id="plusdon"  class="col-12">
                         <h2>Plus qu'un don</h2>
                         <p>
                             Lorem ipsum dolor sit amet, <span>consectetur adipiscing elit</span>. 
@@ -64,53 +65,57 @@
                     </div>
                 </section>
     <!--  ======== NEWS ========  -->
-                <section id="wildcards">
-                    <div id="news1">
-                        <img src="./img/murduson.jpg" alt="">
-                        <div>
-                            <h3>Record</h3>
-                            <h4>Mur du son</h4>
-                            <p>Un escargot à franchit le mur du son ce week-end!</p>
+                <section id="wildcards" class="row d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./img/murduson.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Record</h5>
+                          <h6 class="card-title">Mur du son</h6>
+                          <p class="card-text">Un escargot à franchit le mur du son ce week-end!</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
-                    </div>
-                    <div id="news2">
-                        <img src="./img/Snailbook.jpg" alt="">
-                        <div>
-                            <h3>Social</h3>
-                            <h4>Snailbook</h4>
-                            <p>Snailbook enregistre une affluence record selon son porte parole Mr Snailback.</p>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./img/Snailbook.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Social</h5>
+                          <h6 class="card-title">Snailbook</h6>
+                          <p class="card-text">Snailbook enregistre une affluence record selon son porte parole Mr Snailback.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
-                    </div>
-                    <div id="news3">
-                        <img src="./img/SnailTinder.jpg" alt="">
-                        <div>
-                            <h3>Rencontre</h3>
-                            <h4>Site de rencontre</h4>
-                            <p>TinderSnail fait encore parler de lui en sponsorisant une équipe de E-Sport.</p>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./img/SnailTinder.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Rencontre</h5>
+                          <h6 class="card-title">Site de rencontre</h6>
+                          <p class="card-text">TinderSnail fait encore parler de lui en sponsorisant une équipe de E-Sport.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
-                    </div>
-                    <div id="news4">
-                        <img src="./img/artist.jpg" alt="">
-                        <div>
-                            <h3>Art</h3>
-                            <h4>Incomprit</h4>
-                            <p>L'artiste Lescar jugé coupable de dégradation alors qu'il tente d'exprimer son art.</p>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./img/artist.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Art</h5>
+                          <h6 class="card-title">Incomprit</h6>
+                          <p class="card-text">L'artiste Lescar jugé coupable de dégradation alors qu'il tente d'exprimer son art.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
-                    </div>
+                      </div>
                 </section>
     <!--  ======== AUTRES ASSOC ========  -->
-                <section id="autresassociations">
-                    <h2>Autres associations caritatives</h2>
-                    <div id="autreslogos">
-                        <div class="assologo"><a href="#"><img src="./img/aspas.jpg" alt=""></a></div>
-                        <div class="assologo"><a href="#"><img src="./img/lrb-pdo.jpg" alt=""></a></div>
-                        <div class="assologo"><a href="#"><img src="./img/sea-shepherd.jpg" alt=""></a></div>
-                        <div class="assologo"><a href="#"><img src="./img/abeille_planete.jpg" alt=""></a></div>
+                <section id="autresassociations" class="row d-flex justify-content-center">
+                    <h2 class="col-12">Autres associations caritatives</h2>
+                    <div id="autreslogos" class="col-12">
+                        <div class="assologo col-12" style="background-image: url('./img/aspas.jpg');background-size: contain; background-repeat: no-repeat;"></div>
+                        <div class="assologo col-12" style="background-image: url('./img/lrb-pdo.jpg');background-size: contain; background-repeat: no-repeat;"></div>
+                        <div class="assologo col-12" style="background-image: url('./img/sea-shepherd.jpg');background-size: contain; background-repeat: no-repeat;"></div>
+                        <div class="assologo col-12" style="background-image: url('./img/abeille_planete.jpg');background-size: contain; background-repeat: no-repeat;"></div>
                     </div>
                 </section>
-            </article>
+            </div>
         </main>
-        <footer>
+        <footer class="row">
             <a href="https://thatsthespir.it/search?query=In+school%2C+every+period+ends+with+a+bell" target="_blank">
             <div id="divfooter">
                 <q>In school, every period ends with a bell. Every sentence ends with a period. Every crime ends with a sentence.</q>
@@ -118,6 +123,9 @@
             </div>
             </a>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script>
             // When the user clicks on <div>, open the popup
             function myFunction() {

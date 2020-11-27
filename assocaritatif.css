@@ -6,8 +6,7 @@
 
 body{
     background-color: #2F303A;
-    width: 90%;
-    margin: 0px auto;
+    width: 100%;
     @font-face {
         font-family: "Avenir LT Std";
         src: url('./avenirltstd-light.otf') format("otf");
@@ -40,7 +39,6 @@ section{
     height: 90px;
 }
 #logo{
-    width: 250px;
     height: 50px;
     background-image: url(./img/snail-logo.png);
     background-repeat: no-repeat;
@@ -49,7 +47,6 @@ section{
     margin: auto 0px;
 }
 #equipe{
-    width: 150px;
     height: 50px;
     display: table;
     margin: auto 0px;
@@ -66,7 +63,6 @@ section{
     color: black;
 }
 #news{
-    width: 150px;
     height: 50px;
     display: table;
     margin: auto 0px;
@@ -83,7 +79,6 @@ section{
     color: black;
 }
 #partenaires{
-    width: 150px;
     height: 50px;
     display: table;
     margin: auto 0px;
@@ -100,7 +95,6 @@ section{
     color: black;
 }
 #logoreseauxsociaux{
-    width: 330px;
     height: 50px;
     background-image: url(./img/réseaux-sociaux-logo.png);
     background-repeat: no-repeat;
@@ -108,7 +102,7 @@ section{
     background-position: center;
     margin: auto 0px;
 }
-#fairedonfixe{
+/* #fairedonfixe{
     position: fixed;
     background-color: #916A4F;
     display: block;
@@ -124,7 +118,7 @@ section{
     z-index: 1;
     font-size: 24px;
     font-weight: bold;
-}
+} */
 #preface{
     width: 100%;
     height: 500px;
